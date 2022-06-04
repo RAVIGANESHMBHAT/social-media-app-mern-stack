@@ -1,7 +1,7 @@
 sidebarFriend {
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
+    margin: 25px 10px;
 }
 
 .sidebarFriendDiv {
@@ -15,6 +15,7 @@ sidebarFriend {
     border-radius: 50%;
     object-fit: cover;
     margin-right: 10px;
+    margin-bottom: 15px;
 }
 
 .sidebarFriendName {
