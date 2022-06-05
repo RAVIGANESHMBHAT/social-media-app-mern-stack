@@ -43,12 +43,12 @@ app.post("/api/upload", upload.single("file"), (req, res) => {
     }
 })
 
-//to enable CORS
-app.use(function(req, res, next) {
-  res.header("Access-Control-Allow-Origin", "*");
-  res.header("Access-Control-Allow-Headers", "X-Requested-With");
-  next();
-});
+// //to enable CORS
+// app.use(function(req, res, next) {
+//   res.header("Access-Control-Allow-Origin", "*");
+//   res.header("Access-Control-Allow-Headers", "X-Requested-With");
+//   next();
+// });
 
 app.use('/api/users', userRoute)
 app.use('/api/auth', authRoute)
